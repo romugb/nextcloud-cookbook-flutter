@@ -28,7 +28,7 @@
     "errors": {
       "not_reachable": "Nelze se připojit k: {server_url}\n{error_msg}",
       "certificate_failed": "Certifikát serveru nemohl být ověřen: {server_url}\n{error_msg}",
-      "request_failed": "Žádost o heslo generované aplikací selhala:\n{error_msg}",
+      "request_failed": "App Password request failed:\n{error_msg}",
       "parse_failed": "Nelze parsovat heslo generované aplikací:\n{error_msg}",
       "parse_missing": "Nelze najít vygenerované heslo v odpovědi:\n{error_msg}",
       "auth_failed": "Přezdívka a / nebo heslo je nesprávné!",
@@ -46,7 +46,7 @@
       "load_failed": "Načítání kategorie selhalo: {error_msg}",
       "load_no_response": "Nebylo možné získat kategorie ze serveru.",
       "api_version_check_failed": "Nepovedlo se zjistit verzi API serveru:\n{error_msg}",
-      "api_version_above_confirmed": "Verze API serveru byla updatována. Některé služby nemusí fungovat, jako by se dalo očekávat. Počkejte prosím na update!\n{version}"
+      "api_version_above_confirmed": "The API version of the Server was Updated. Some features might not work as expected. Please wait for an update!\n{version}"
     }
   },
   "recipe_list": {
